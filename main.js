@@ -13,6 +13,13 @@ let student3 = new Student("topolino", "mouse", 12, "m");
 
 let teacher1 = new Teacher("paperone", "duck", 80, "m", "terza media");
 
+let teacher2 = new Teacher("paperina", "mala", 65, "m", "prima media");
+
+
+let preside1 = new Preside("Mario", "Perri", 78, "m", "Scuola");
+
+
+console.log(teacher2.toString());
 //console.log(teacher1.toString());
 
 
@@ -35,6 +42,8 @@ teacher1.addStudentGrade("tomo2010", 7);
 teacher1.addStudentGrade("tomo2010", 5);
 
 console.log(teacher1.toString());
+
+
 console.log(teacher1.bestStudent());
 
 // teacher1.bestStudent();
